@@ -1,0 +1,190 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Architects Daughter', cursive;
+}
+.header {
+   min-height: 53vw;
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/main.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+nav {
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed'
+}
+nav img {
+   width: 300px;
+}
+.nav-links {
+   flex: 4;
+   text-align: right;
+}
+.nav-links ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 8px 20px;
+   position: relative;
+}
+.nav-links ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Patrick Hand', cursive;
+   font-size: 30px;
+   transition: 0.3s;
+}
+.header .space{
+   width: 50%
+}
+.nav-links ul li a:hover  {
+   font-size: 35px;
+}
+.nav-links ul li ::after {
+   content: "";
+   width: 0%;
+   height: 2px;
+   background: red;
+   display: block;
+   margin: auto;
+   transition: 0.7s;
+}
+.nav-links ul li :hover::after {
+   width : 100%;
+}
+.header .text-box {
+   width: 60%;
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   transform: translate(-60%, -50%);
+   text-align : right;
+   font-style: italic;
+   font-family: 'Patrick Hand', cursive;
+   color: #FFFFD2;
+}
+.header .text-box h1{
+   padding: 1rem;
+   font-size: 45px;
+   font-style: oblique;
+}
+.header .text-box h2{
+   font-size: 40px;
+   padding-left: 20px
+}
+.header .text-box h4{
+   font-size: 30px;
+   padding-left: : 30px;
+}
+@media(max-width: 1500px) {
+   .header .text-box h1{
+      padding: 1rem;
+      font-size: 25px;
+   }
+   .header .text-box h2{
+      font-size: 20px;
+      padding-left: 20px
+   }
+   .header .text-box h4{
+      font-size: 15px;
+      padding-left: : 30px;
+   }
+}
+/*------CHARACTERS------*/
+
+.characters {
+   width: 80%;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.heading h1{
+   font-size: 80px;
+}
+.heading p{
+   font-size: 30px
+}
+ .heading {
+   padding: 30px;
+   border-style: solid;
+   border-width: medium;
+   border-color: black;
+   border-radius: 20px;
+}
+.characters .row {
+   display: flex;
+   margin-top: 5%;
+   justify-content:space-around;
+}
+.characters-col {
+   flex-basis: 31%;
+   position: relative;
+   background-color: grey;
+   border-radius: 30px;
+   overflow: hidden;
+}
+.characters img {
+   display: block;
+   width: 100%
+}
+.layer {
+   background: transparent;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: 0.5s
+}
+.layer:hover {
+   background-color: rgba(0,0,0,0.7);
+}
+.layer h2 {
+   width: 100%;
+   font-weight: 500;
+   color: #fff;
+   font-size: 26px;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   position: absolute;
+   opacity: 0;
+   transition: 0.5s;
+}
+.layer:hover h2 {
+   bottom: 49%;
+   opacity: 1;
+}
+/*----PLACES-----*/
+
+.locations {
+   width: 80%;
+   text-align: center;
+   margin: auto;
+   padding-bottom: 50px;
+   position: relative;
+}
+.place {
+   display: flex;
+   padding-top: 80px;
+   padding-bottom: 80px
+   justify-content: space-between;
+}
+p {
+   text-align:  left;
+   padding:100px
+}
+img{
+   width: 100%;
+   border: 4px solid;
+   border-radius: 10px;
+}
+.
